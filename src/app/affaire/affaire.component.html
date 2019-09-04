@@ -1,4 +1,47 @@
-<div class="main-content" ><p>
-  affaire works!
-</p>
+<div class="main-content" >
+  <div class="container-fluid">
+     <div class="col-md-12">
+         <div class="card">
+             <div class="header">
+                 <h4 class="title">Liste des affaires</h4>
+                 <p class="category">Ceci est la liste totale des affaires</p>
+             </div>
+             <div class="content table-responsive table-full-width">
+                 <table class="table table-hover table-striped">
+                     <thead>
+                         <tr>
+                             <!-- <th *ngFor="let cell of tableData1.headerRow">{{ cell }}</th> -->
+                             <th>Référence</th>
+                             <th>Titre</th>
+                             <th>Description</th>
+                             <th>Statut</th>
+                             <!-- <th>Date de naissance</th>
+                         <th>Image</th>
+                         <th>Action</th> -->
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr *ngFor="let a of affaires">
+                             <!-- <td *ngFor="let cell of row">{{cell}}</td> -->
+                             <td>{{a.reference}}</td>
+                             <td>{{a.titre}}</td>
+                             <td>{{a.description}}</td>
+                             <td>{{a.statut}}</td>
+                             <!-- <td>{{u.dateNaissance}}</td>
+                         <td>
+                             <img src="data:image/jpeg;base64,{{u.image}}" />
+                         </td>
+                         <td>
+                             <button (click)="deleteUser(u)">Supprimer</button>
+                             <button (click)="editUser(u)">Modifier</button>
+                         </td> -->
+                         </tr>
+                     </tbody>
+                 </table>
+
+             </div>
+         </div>
+     </div>
+
+ </div>
 </div>
