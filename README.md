@@ -1,3 +1,7 @@
+# Description de l'application
+
+Back-end en Java : https://github.com/marin304/gestionContentieux
+
 # [Light Bootstrap Dashboard Angular](https://demos.creative-tim.com/light-bootstrap-dashboard-angular2/dashboard)
 [![version][version-badge]][CHANGELOG] ![license][license-badge]
 
